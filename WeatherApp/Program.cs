@@ -11,6 +11,12 @@ internal class Program
 
         ApiTest apiTest = new ApiTest();
         await apiTest.GetWeatherData(city);
-        apiTest.ListAllWeatherRecords(); // This will display all the weather records
+        apiTest.ListAllWeatherRecords(); 
+        
+        Console.Write("Sorted by temperature: ");
+        apiTest.GetSortedByTemperature();
+        
+        Console.Write("By country: ");
+        apiTest.GetCitiesByCountry("PL");
     }
 }

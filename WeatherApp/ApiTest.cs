@@ -15,7 +15,7 @@ namespace WeatherApp;
         {
             try
             {
-                // Check if data exists in the database
+               
                 using (var db = new WeatherDbContext())
                 {
                     var existingRecord = db.WeatherRecords.FirstOrDefault(w => w.City == city); 
@@ -123,7 +123,7 @@ namespace WeatherApp;
             }
         }
 
-        // 🔹 Usuwanie wszystkich danych
+     
         public void ClearDatabase()
         {
             using (var db = new WeatherDbContext())
@@ -134,7 +134,7 @@ namespace WeatherApp;
             }
         }
 
-        // 🔹 Sortowanie miast po temperaturze
+      
         public void GetSortedByTemperature()
         {
             using (var db = new WeatherDbContext())
