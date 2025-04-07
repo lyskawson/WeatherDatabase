@@ -14,20 +14,20 @@
 - [Model danych](#model-danych)
 - [API i geolokalizacja](#api-i-geolokalizacja)
 - [Uwaga dot. klucza API](#uwaga-dot-klucza-api)
-- [Licencja](#licencja)
+
 
 ---
 
 ## Funkcjonalności
 
-- ✅ Pobieranie aktualnej pogody dla podanego miasta
-- ✅ Geolokalizacja miasta do współrzędnych geograficznych (OpenWeatherMap Geocoding API)
-- ✅ Zapis danych pogodowych do bazy SQLite tylko wtedy, gdy nie istnieje już wpis dla miasta
-- ✅ Wyświetlanie wszystkich zapisanych rekordów
-- ✅ Sortowanie zapisanych miast wg temperatury (malejąco)
-- ✅ Filtrowanie rekordów wg kraju (kod kraju, np. "PL")
-- ✅ Usuwanie konkretnego miasta z bazy danych
-- ✅ Czyszczenie całej bazy danych
+-  Pobieranie aktualnej pogody dla podanego miasta
+-  Geolokalizacja miasta do współrzędnych geograficznych (OpenWeatherMap Geocoding API)
+-  Zapis danych pogodowych do bazy SQLite tylko wtedy, gdy nie istnieje już wpis dla miasta
+-  Wyświetlanie wszystkich zapisanych rekordów
+-  Sortowanie zapisanych miast wg temperatury (malejąco)
+-  Filtrowanie rekordów wg kraju (kod kraju, np. "PL")
+-  Usuwanie konkretnego miasta z bazy danych
+-  Czyszczenie całej bazy danych
 
 ---
 
